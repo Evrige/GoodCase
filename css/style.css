@@ -44,15 +44,12 @@ body {
 
 .main__news {
   margin-top: 60px;
+  display: flex;
 }
 .main__title {
   color: #EAAE1E;
   font-size: 30px;
   padding-bottom: 20px;
-}
-.main__text {
-  display: inline-block;
-  vertical-align: top;
 }
 .main__description {
   max-width: 900px;
@@ -90,7 +87,7 @@ body {
 }
 .footer__social-link {
   text-decoration: none;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .footer__social-link img {
   width: 35px;

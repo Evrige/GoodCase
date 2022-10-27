@@ -51,6 +51,7 @@ body {
 
   &__news {
     margin-top: 60px;
+    display: flex;
   }
 
   &__title {
@@ -59,10 +60,6 @@ body {
     padding-bottom: 20px;
   }
 
-  &__text {
-    display: inline-block;
-    vertical-align: top;
-  }
 
   &__description {
     max-width: 900px;
@@ -109,7 +106,7 @@ body {
 
     &-link {
       text-decoration: none;
-      margin-top: 10px;
+      margin-bottom: 10px;
 
       img {
         width: 35px;
